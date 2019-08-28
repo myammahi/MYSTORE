@@ -1,7 +1,7 @@
 fetch("./Dynamic.json")
   .then(response => response.json())
   .then(data => {
-    createTable(data.products);
+    //createTable(data.products);
     //console.log(data.products);
   });
 
