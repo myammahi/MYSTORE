@@ -1,0 +1,13 @@
+{
+  "products": [
+    { "name": "Cake 1", "price": "260 AED", "imagUrl": "./c1.jpg" },
+    { "name": "Cake 2", "price": "250 AED", "imagUrl": "./c2.jpg" },
+    { "name": "Cake 3", "price": "200 AED", "imagUrl": "./c3.jpg" },
+    { "name": "Cake 4", "price": "300 AED", "imagUrl": "./c4.jpg" },
+    { "name": "Cake 5", "price": "200 AED", "imagUrl": "./c5.jpg" },
+    { "name": "Cake 6", "price": "280 AED", "imagUrl": "./c6.jpg" },
+    { "name": "Cake 7", "price": "200 AED", "imagUrl": "./c7.jpg" },
+    { "name": "Cake 8", "price": "200 AED", "imagUrl": "./c8.jpg" },
+    { "name": "Cake 9", "price": "200 AED", "imagUrl": "./c9.jpg" }
+  ]
+}
