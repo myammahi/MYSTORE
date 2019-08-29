@@ -3,11 +3,12 @@ fetch("./Dynamic.json")
   .then(data => {
     //createTable(data.products);
     //console.log(data.products);
+    render(data.products);
   });
 
 // fetch("./Dynamic.json").then(response => response.json());
 
-function createTable(records) {
+/*function createTable(records) {
   var table = document.createElement("table");
   table.setAttribute("border", 1);
   table.appendChild(createHeading(records[0]));
@@ -35,4 +36,16 @@ function createRow(record) {
     row.appendChild(column);
   }
   return row;
+}*/
+
+function render(record) {
+  var container = document.getElementById("container");
+  for (let obj of record) {
+    for (let prop in obj) {
+      var value = obj[prop];
+      var div = document.createElement("div");
+      div.innerHTML = value;
+      container.appendChild(div);
+    }
+  }
 }
